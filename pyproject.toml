@@ -25,6 +25,7 @@ optuna-dashboard = "^0.8.1"
 optuna-fast-fanova = "^0.0.3"
 gunicorn = "^20.1.0"
 seaborn = "^0.12.2"
+plotly = "^5.11.0"
 
 
 [build-system]
