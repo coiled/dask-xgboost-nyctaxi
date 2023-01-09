@@ -10,9 +10,9 @@ packages = [{include = "dask_xgboost_nyctaxi"}]
 python = ">=3.9,<3.11"
 dask = "^2022.12.1"
 distributed = "^2022.12.1"
-xgboost = "^1.7.2"
-coiled = "^0.2.58"
-optuna = {git = "https://github.com/optuna/optuna.git"}
+xgboost = "1.7.3"
+coiled = "0.2.59"
+optuna = "3.1.0b0"
 dask-labextension = "^6.0.0"
 nodejs = "^0.1.1"
 llvmlite = "^0.39.1"
