@@ -162,3 +162,7 @@ cython_debug/
 data
 taxi_zones
 .DS_Store
+*.msgpack.gz
+*.logs
+*.txt
+/src
