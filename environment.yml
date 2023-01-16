@@ -1,4 +1,4 @@
-name: dask-xgboost-nyctaxi
+name: dask-xgboost-nyctaxi2
 channels:
   - conda-forge
 dependencies:
