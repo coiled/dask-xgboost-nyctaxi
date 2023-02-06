@@ -162,10 +162,11 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-data
 taxi_zones
 .DS_Store
 *.msgpack.gz
 *.logs
 *.txt
 /src
+*.png
+*.pickle
