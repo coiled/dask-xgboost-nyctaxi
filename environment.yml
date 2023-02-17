@@ -6,10 +6,15 @@ dependencies:
   - python=3.10
 
   - coiled-runtime=0.2.1
-  # These will be in coiled-runtime=0.2.2
+  - matplotlib=3.6.3
+  - seaborn=0.12.2
+
+  # Everything below this line will be included in coiled-runtime=0.2.2
   - optuna=3.1.0
   - scipy=1.10.0
   - sqlalchemy=1.4.46
-
-  - matplotlib=3.6.3
-  - seaborn=0.12.2
+  - pip:
+      # Fix bug in dask 2022.11.1 where dask would not pick up the local client defined
+      # by distributed.Client.as_current() - needed by Modeling 3 notebook
+      - dask==2023.2.0
+      - distributed==2023.2.0
